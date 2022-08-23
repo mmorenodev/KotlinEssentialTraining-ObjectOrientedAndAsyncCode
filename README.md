@@ -78,6 +78,32 @@ Enum types can provide properties THAT EVERY VALUE TYPE MUST IMPLEMENT. We can a
 
 <img width="381" alt="image" src="https://user-images.githubusercontent.com/66931789/186249631-4c65ca11-a865-4c3a-a96f-5be44928c0f3.png">
 
+**Enum classes are very helpful when we try to model real-world data in a type-safe way.**
+
+## Data classes
+When writing object oriented code, it's common practice to have types that ARE SIMPLE VALUE HOLDERS, THAT HAVE NO REAL BUSINESS LOGIC, or purpose other than to hold some set of data. Data classes in Kotlin are specifically designed for this purpose and have several useful traits that help reduce boilerplate code. 
+
+We can define a data class, much like a regular class, but using the data modifier and WITH A FEW RESTRICTIONS. 
+By addint the 'data' modifier, we bring it with some restrictions that data classes have. And one of those special restrictions on data classes is that THEY MUST CONTAIN AT LEAST ONE CONSTRUCTIVE PROPERTY IN THEIR PRIMARY CONSTRUCTOR. 
+
+**The Kotlin compiler will generate the needed code to compare data classes BASED ON THEIR CONSTRUCTOR PROPERTIES.**
+
+<img width="858" alt="image" src="https://user-images.githubusercontent.com/66931789/186254013-89fb97f7-aa7a-4748-9271-3b031091290e.png">
+
+Another useful feature of data classes is that the compiler generates a copy function, which may be used to copy an instance of a data class along WITH ALL OF ITS ASSOCIATED DATA. 
+
+<img width="243" alt="image" src="https://user-images.githubusercontent.com/66931789/186254797-f2d6eec8-f1d3-45f1-9a1c-ec1b15a11732.png">
+
+Part of the data class magic is that the 'copy' function allows us to MODIFY SPECIFIC VALUES WHEN CALLING THAT 'copy' FUNCTION. 
+
+<img width="256" alt="image" src="https://user-images.githubusercontent.com/66931789/186254969-3f3aaf51-6cf5-4e1e-995e-cd8ac8b621f8.png">
+
+Another 'data' class feature is DESTRUCTURING. **Destructuring declarations allow us to extract the PUBLIC values of a data class into variables without having to explicitly reference them.**
+
+<img width="183" alt="image" src="https://user-images.githubusercontent.com/66931789/186255543-a2fbe010-4b53-4951-b692-0523e0d77137.png">
+
+**THE VARIABLES WILL HAVE THEIR VALUES ASSIGNED IN ORDER OF THE PROPERTY DECLARATIONS IN THE DATA CLASS**
+
 
 
 
