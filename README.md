@@ -27,6 +27,36 @@ In cases where we don't need to validate a parameter before assigning it to a pr
 
 In addition to methods, interfaces may also define properties.
 
+## Enum Classes
+Sometimes we want to define a new type **that only has a limited set of values** 
+Enum classes are a special class type that help us do just that, with enum classes we prevent the addition of new values. 
+
+Any enum value HAS A COUPLE OF COMMON PROPERTIES. 
+
+We may access the name of the enum value. The name is a string representation of the actual typed name defined in the enum class body. 
+
+<img width="896" alt="image" src="https://user-images.githubusercontent.com/66931789/186218054-500b106e-c2cf-43f5-90cf-df11a303f0a4.png">
+
+We can also determine the index of the value WITHIN THE TYPE BY USING THE 'ordinal' PROPERTY. 
+
+<img width="911" alt="image" src="https://user-images.githubusercontent.com/66931789/186218590-cfd152c2-0cd7-4d08-b779-7866a521b072.png">
+
+We can convert a string into a enum value by using valueOf.
+
+<img width="516" alt="image" src="https://user-images.githubusercontent.com/66931789/186218880-b7b0b185-c264-485c-920d-d376862309cd.png">
+
+If we were to pass something else in 'valueOf', we would gete an exception. We see an IllegalArgumentException. 
+
+
+
+
+
+
+
+
+
+
+
 <img width="278" alt="image" src="https://user-images.githubusercontent.com/66931789/186191417-11bbf34d-863b-4839-beaf-b0314f04b19d.png">
 
 <img width="434" alt="image" src="https://user-images.githubusercontent.com/66931789/186191666-29984be6-9419-4a59-9403-8700df866adf.png">
