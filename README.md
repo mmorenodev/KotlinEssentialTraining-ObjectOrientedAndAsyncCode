@@ -21,7 +21,9 @@ In cases where we don't need to validate a parameter before assigning it to a pr
 
 <img width="675" alt="image" src="https://user-images.githubusercontent.com/66931789/185804529-e81504d1-ef25-44b2-9531-afa872709057.png">
 
+##Interfaces
 
+<img width="624" alt="image" src="https://user-images.githubusercontent.com/66931789/186190273-a6d86e77-081a-4280-8d15-0293dbafbbd1.png">
 
 
 
