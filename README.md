@@ -25,6 +25,24 @@ In cases where we don't need to validate a parameter before assigning it to a pr
 
 <img width="624" alt="image" src="https://user-images.githubusercontent.com/66931789/186190273-a6d86e77-081a-4280-8d15-0293dbafbbd1.png">
 
+In addition to methods, interfaces may also define properties.
+
+<img width="278" alt="image" src="https://user-images.githubusercontent.com/66931789/186191417-11bbf34d-863b-4839-beaf-b0314f04b19d.png">
+
+<img width="434" alt="image" src="https://user-images.githubusercontent.com/66931789/186191666-29984be6-9419-4a59-9403-8700df866adf.png">
+
+We can implement default behavior on interfaces. To provide the default implementation, ALL WE NEED TO DO IS FINISH IMPLEMENTING THE METHOD.
+
+<img width="388" alt="image" src="https://user-images.githubusercontent.com/66931789/186192428-e90b20b0-814f-4674-b99a-9116832b0283.png">
+
+**While we can provide default implementations for an interface, we cannot provide a default value for an interface property.**
+
+## Enum Classes
+
+
+
+
+
 
 
 
