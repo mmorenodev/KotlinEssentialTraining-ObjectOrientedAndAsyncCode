@@ -68,6 +68,16 @@ We can implement default behavior on interfaces. To provide the default implemen
 **While we can provide default implementations for an interface, we cannot provide a default value for an interface property.**
 
 ## Enum Classes
+When you need a data type with a limited set of possible values you can us eenum classes. They are a special class.
+
+For a variable of data type enum you can see its name, ordinal (index position when declared).
+
+You can also get all the values of the enum as an array invoking the 'values()' method. 
+
+Enum types can provide properties THAT EVERY VALUE TYPE MUST IMPLEMENT. We can add a constructor, and define a property that will be present on any value type of this enum. 
+
+<img width="381" alt="image" src="https://user-images.githubusercontent.com/66931789/186249631-4c65ca11-a865-4c3a-a96f-5be44928c0f3.png">
+
 
 
 
